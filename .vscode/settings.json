@@ -1,0 +1,242 @@
+{
+	"git-graph.commitDetailsView.fileView.type": "File List",
+	"editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.toc.levels": "2..6",
+	"markdownlint.run": "onSave",
+    "markdown.preview.fontSize": 17,
+    "markdown.preview.scrollEditorWithPreview": false,
+	"notebook.markup.fontSize": 15,
+    "notebook.lineNumbers": "on",
+    // "latex-workshop.latex.recipes": [
+    //     {
+    //         "name": "latexmk 🔃",
+    //         "tools": [
+    //             "latexmk"
+    //         ]
+    //     },
+    //     {
+    //         "name": "latexmk force 🔃",
+    //         "tools": [
+    //             "latexmk force"
+    //         ]
+    //     },
+    //     {
+    //         "name": "latexmk (latexmkrc)",
+    //         "tools": [
+    //             "latexmk_rconly"
+    //         ]
+    //     },
+    //     {
+    //         "name": "latexmk (lualatex)",
+    //         "tools": [
+    //             "lualatexmk"
+    //         ]
+    //     },
+    //     {
+    //         "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+    //         "tools": [
+    //             "pdflatex",
+    //             "bibtex",
+    //             "pdflatex",
+    //             "pdflatex"
+    //         ]
+    //     },
+    //     {
+    //         "name": "pdflatex ➞ biber ➞ pdflatex × 2",
+    //         "tools": [
+    //             "pdflatex",
+    //             "biber",
+    //             "pdflatex",
+    //             "pdflatex"
+    //         ]
+    //     },
+    //     {
+    //         "name": "Compile Rnw files",
+    //         "tools": [
+    //             "rnw2tex",
+    //             "latexmk"
+    //         ]
+    //     },
+    //     {
+    //         "name": "Compile Jnw files",
+    //         "tools": [
+    //             "jnw2tex",
+    //             "latexmk"
+    //         ]
+    //     },
+    //     {
+    //         "name": "tectonic",
+    //         "tools": [
+    //             "tectonic"
+    //         ]
+    //     },
+    //     {
+    //         "name": "texify",
+    //         "tools": [
+    //             "texify"
+    //         ]
+    //     }
+    // ],
+    // "latex-workshop.latex.tools": [
+    //     {
+    //         "name": "latexmk",
+    //         "command": "latexmk",
+    //         "args": [
+    //             "-synctex=1",
+    //             "-interaction=nonstopmode",
+    //             "-file-line-error",
+    //             "-pdf",
+    //             "-shell-escape",
+    //             "-outdir=%OUTDIR%",
+    //             "%DOC%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "latexmk force",
+    //         "command": "latexmk",
+    //         "args": [
+    //             "-synctex=1",
+    //             "-interaction=nonstopmode",
+    //             "-file-line-error",
+    //             "-f",
+    //             "-pdf",
+    //             "-outdir=%OUTDIR%",
+    //             "%DOC%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "lualatexmk",
+    //         "command": "latexmk",
+    //         "args": [
+    //             "-synctex=1",
+    //             "-interaction=nonstopmode",
+    //             "-file-line-error",
+    //             "-lualatex",
+    //             "-outdir=%OUTDIR%",
+    //             "%DOC%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "latexmk_rconly",
+    //         "command": "latexmk",
+    //         "args": [
+    //             "%DOC%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "pdflatex",
+    //         "command": "pdflatex",
+    //         "args": [
+    //             "-synctex=1",
+    //             "-interaction=nonstopmode",
+    //             "-file-line-error",
+    //             "%DOC%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "bibtex",
+    //         "command": "bibtex",
+    //         "args": [
+    //             "%DOCFILE%"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "rnw2tex",
+    //         "command": "Rscript",
+    //         "args": [
+    //             "-e",
+    //             "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "jnw2tex",
+    //         "command": "julia",
+    //         "args": [
+    //             "-e",
+    //             "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "jnw2texmintex",
+    //         "command": "julia",
+    //         "args": [
+    //             "-e",
+    //             "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "tectonic",
+    //         "command": "tectonic",
+    //         "args": [
+    //             "--synctex",
+    //             "--keep-logs",
+    //             "%DOC%.tex"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "texify",
+    //         "command": "texify",
+    //         "args": [
+    //             "--synctex",
+    //             "--pdf",
+    //             "--tex-option=\"-interaction=nonstopmode\"",
+    //             "--tex-option=\"-file-line-error\"",
+    //             "%DOC%.tex"
+    //         ],
+    //         "env": {}
+    //     },
+    //     {
+    //         "name": "biber",
+    //         "command": "biber",
+    //         "args": [
+    //             "%DOCFILE%"
+    //         ],
+    //         "env": {}
+    //     }
+    // ],
+	"latex-workshop.view.pdf.trim": 2,
+    "latex-workshop.latex.clean.fileTypes": [
+        "**/src/**/*.aux",
+        "**/src/**/*.bbl",
+        "**/src/**/*.blg",
+        "**/src/**/*.idx",
+        "**/src/**/*.ind",
+        "**/src/**/*.lof",
+        "**/src/**/*.lot",
+        "**/src/**/*.out",
+        "**/src/**/*.toc",
+        "**/src/**/*.acn",
+        "**/src/**/*.acr",
+        "**/src/**/*.alg",
+        "**/src/**/*.glg",
+        "**/src/**/*.glo",
+        "**/src/**/*.gls",
+        "**/src/**/*.fls",
+        "**/src/**/*.log",
+        "**/src/**/*.fdb_latexmk",
+        "**/src/**/*.snm",
+        "**/src/**/*.synctex(busy)",
+        "**/src/**/*.synctex.gz(busy)",
+        "**/src/**/*.nav"
+    ],
+    "latex-workshop.latex.search.rootFiles.include": [
+        "**/*.tex",
+        "**/*.rnw",
+        "**/*.Rnw"
+    ],
+    "latex-workshop.bibtex.maxFileSize": 7,
+}
