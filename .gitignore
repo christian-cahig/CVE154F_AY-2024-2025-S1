@@ -34,3 +34,6 @@ syllabus/src/
 # Python
 **/__pycache__/
 /**/.ipynb_checkpoints/
+
+# Class records
+records/
