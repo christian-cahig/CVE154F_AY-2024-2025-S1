@@ -1,5 +1,7 @@
 # Setup Guide
 
+This document is last updated on 3 September 2024.
+
 ## Setting up conda
 
 It is often recommended for beginners to install the [Anaconda® Distribution](https://docs.anaconda.com/anaconda/),
