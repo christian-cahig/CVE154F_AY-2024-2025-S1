@@ -105,6 +105,8 @@ and the following Python packages:
   andd
 - [Matplotlib](https://matplotlib.org/) (3.9.2)
 
+Moreover, conda will look for Python and the said packages in the conda-forge channel.
+
 Follow the prompts to complete the process,
 and make sure you are connected to the internet.
 
@@ -114,3 +116,15 @@ you should see `cve154` in the result of running the command
 ```bash
 conda env list
 ```
+
+Of course,
+the above-mentioned task of creating the `cve154` environment
+can be accomplished through Anaconda Navigator
+— and much easier at that.
+You should be able to do it after reading
+the guide [*Getting started with Navigator*](https://docs.anaconda.com/navigator/getting-started/)
+and the tutorials
+[*Managing environments*](https://docs.anaconda.com/navigator/tutorials/manage-environments/),
+[*Managing packages*](https://docs.anaconda.com/navigator/tutorials/manage-packages/),
+and
+[*Managing channels*](https://docs.anaconda.com/navigator/tutorials/manage-channels/).
