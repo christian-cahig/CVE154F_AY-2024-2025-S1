@@ -38,6 +38,7 @@ exams/**/src/
 
 # Class records
 records/
+**/submissions/
 
 # Scratch
 scratch/
