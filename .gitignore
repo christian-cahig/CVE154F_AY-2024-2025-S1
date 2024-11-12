@@ -31,6 +31,7 @@
 # LaTeX sources
 syllabus/src/
 exams/**/src/
+labs/**/src/
 
 # Python
 **/__pycache__/
